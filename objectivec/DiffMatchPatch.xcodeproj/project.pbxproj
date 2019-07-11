@@ -441,6 +441,7 @@
 				GCC_PREFIX_HEADER = DiffMatchPatch_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "@executable_path/../Frameworks";
+				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = "de.geheimwerk.${PRODUCT_NAME:rfc1034Identifier}";
 				PRODUCT_NAME = DiffMatchPatch;
 				WRAPPER_EXTENSION = framework;
@@ -460,6 +461,7 @@
 				GCC_PREFIX_HEADER = DiffMatchPatch_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "@executable_path/../Frameworks";
+				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = "de.geheimwerk.${PRODUCT_NAME:rfc1034Identifier}";
 				PRODUCT_NAME = DiffMatchPatch;
 				WRAPPER_EXTENSION = framework;
@@ -565,6 +567,7 @@
 				GCC_PREFIX_HEADER = DiffMatchPatch_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "@executable_path/../Frameworks";
+				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = "de.geheimwerk.${PRODUCT_NAME:rfc1034Identifier}";
 				PRODUCT_NAME = DiffMatchPatch;
 				WRAPPER_EXTENSION = framework;
@@ -632,6 +635,7 @@
 				GCC_PREFIX_HEADER = DiffMatchPatch_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "@executable_path/../Frameworks";
+				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = "de.geheimwerk.${PRODUCT_NAME:rfc1034Identifier}";
 				PRODUCT_NAME = DiffMatchPatch;
 				WRAPPER_EXTENSION = framework;
@@ -902,6 +906,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "de.geheimwerk.DiffMatchPatch-iOS";
 				PRODUCT_NAME = DiffMatchPatch;
@@ -956,6 +961,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "de.geheimwerk.DiffMatchPatch-iOS";
 				PRODUCT_NAME = DiffMatchPatch;
@@ -1006,6 +1012,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "de.geheimwerk.DiffMatchPatch-iOS";
 				PRODUCT_NAME = DiffMatchPatch;
@@ -1057,6 +1064,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "de.geheimwerk.DiffMatchPatch-iOS";
 				PRODUCT_NAME = DiffMatchPatch;
